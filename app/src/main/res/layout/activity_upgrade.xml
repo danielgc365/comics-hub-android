@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/background_hub">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/upgrade_text_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get the full version for a better reading experience!"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/upgrade_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ Download your favourites comics to read when no internet connection"
+            android:layout_below="@+id/upgrade_text_header"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/upgrade_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ Remove ads in the Comic viewer "
+            android:layout_below="@+id/upgrade_text_1"
+            android:elegantTextHeight="false"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
+        <Button
+            android:id="@+id/upgrade_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy now at 2.99 USD"
+            android:background="?attr/colorAccent"
+            android:padding="@dimen/padding8"
+            android:layout_below="@+id/upgrade_text_2"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:onClick="onBuyPressed"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="details_margin_top">280dp</dimen>
+    <dimen name="overscroll_size">140dp</dimen>
+
+    <dimen name="thumb_width_list">64dp</dimen>
+    <dimen name="thumb_height_list">82dp</dimen>
+
+    <dimen name="thumb_width_small">86dp</dimen>
+    <dimen name="thumb_width_medium">118dp</dimen>
+    <dimen name="thumb_width_large">148dp</dimen>
+
+    <dimen name="padding8">8dp</dimen>
+    <dimen name="nav_header_height">80dp</dimen>
+    <dimen name="size_selector">2dp</dimen>
+    <dimen name="clickable_area_size">86dp</dimen>
+
+</resources>

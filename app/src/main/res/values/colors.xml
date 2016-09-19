@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_dark">#0288D1</color>
+    <color name="primary_dark_dark">#0277BD</color>
+    <color name="accent_light">#4FC3F7</color>
+
+    <color name="tertiary_text">#cac5c5</color>
+
+    <color name="accent_light_light">#ef5350</color>
+    <color name="accent_dark">#2e7d32</color>
+    <color name="primary_darker">#424242</color>
+    <color name="primary_darkest">#f30000</color>
+
+    <color name="transparent_dark">#98000000</color>
+    <color name="light_background">#f4f4f4</color>
+    <color name="preview_filter">#35000000</color>
+
+    <color name="background_hub">#404040</color>
+
+    <color name="black_owerlay_40">#66000000</color>
+    <color name="black_owerlay_60">#99000000</color>
+
+    <color name="white_overlay_85">#d9ffffff</color>
+    <color name="selector_frame">#26a69a</color>
+    <color name="pressed_light">#14838383</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#8e969e</color>
+    <color name="black">#000000</color>
+
+
+</resources>

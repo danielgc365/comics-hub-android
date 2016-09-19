@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.yarnapps.comicshub.components.FrameCheckLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding8"
+        android:background="?attr/selectableItemBackground">
+
+        <org.yarnapps.comicshub.components.AsyncImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/thumb_width_list"
+            android:layout_height="@dimen/thumb_height_list"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:maxLines="1"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="?android:textColorPrimary" />
+
+        <TextView
+            android:id="@+id/textView_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_title"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:maxLines="1"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="?android:textColorSecondary" />
+
+        <TextView
+            android:id="@+id/textView_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_subtitle"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:maxLines="1"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="?android:textColorPrimary" />
+
+        <TextView
+            android:id="@+id/textView_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/background_badge"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white_overlay_85"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</org.yarnapps.comicshub.components.FrameCheckLayout>

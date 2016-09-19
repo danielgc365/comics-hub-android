@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:activatedBackgroundIndicator"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <org.yarnapps.comicshub.components.AsyncImageView
+        android:id="@+id/imageView"
+        android:layout_width="122dp"
+        android:layout_height="164dp"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@+id/imageView"
+        android:maxLines="1" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar_primary"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/textView_title"
+        android:indeterminate="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView_subtitle"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/progressBar_primary" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar_secondary"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/textView_subtitle"
+        android:indeterminate="false" />
+
+    <TextView
+        android:id="@+id/textView_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/progressBar_secondary"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_alignBaseline="@+id/textView_state" />
+
+    <TextView
+        android:id="@+id/textView_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/queue"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/progressBar_secondary"
+        android:layout_alignRight="@+id/progressBar_secondary"
+        android:layout_alignEnd="@+id/progressBar_secondary" />
+
+</RelativeLayout>
