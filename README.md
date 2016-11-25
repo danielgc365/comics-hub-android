@@ -38,4 +38,4 @@ You should have received a copy of the GNU General Public License along with thi
 
 ---
 
-If you want to use this app or parts of it, please, add link to this repo and DO NOT include ads or any paid options.
+If you want to use this app or parts of it, please, add link to this repo.
