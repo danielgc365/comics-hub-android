@@ -13,13 +13,19 @@
  - Importing from .cbz files
 
 ##Sources
-###ReadComics
-###ComiCastle
-###Gogo Comics
+ - ReadComics
+ - ComiCastle
+ - Gogo Comics
 
-## ToDo
+##ToDo
+
  - Translate to different languages and add more online catalogues.
- 
+
+##Donations
+We work hard on the app so if you feel like donating feel free to do so by clicking the button below! 
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F7KV9N4DULMY2)
+
 ## License
 
 Copyright (C) 2016 Daniel Gomez
