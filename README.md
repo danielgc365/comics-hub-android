@@ -1,9 +1,9 @@
-#Comics Hub for Android
+# Comics Hub for Android
 <p align="center">Comics Hub is a powerful app thats lets you read thousands of comics for free!</p>
 
 <img src="https://i.imgsafe.org/791a8e938f.png">
 
-##Features
+## Features
  - 3 huge online catalogues with search
  - Downloading comics to local storage
  - Customizable reader
@@ -12,19 +12,10 @@
  - Notifications about new chapters
  - Importing from .cbz files
 
-##Sources
+## Sources
  - ReadComics
  - ComiCastle
  - Gogo Comics
-
-##ToDo
-
- - Translate to different languages and add more online catalogues.
-
-##Donate
-If you feel like donating feel free to do so by clicking the button below! 
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F7KV9N4DULMY2)
 
 ## License
 
