@@ -20,12 +20,14 @@ public class ReadComics extends MangaProvider {
     protected static final int sorts[] = {R.string.sort_popular};
     protected static final String sortUrls[] = {""};
 
+    // Create tags for comic genres
     protected static final int genres[] = {R.string.genre_all, R.string.genre_marvel, R.string.genre_DC, R.string.genre_Vertigo, R.string.genre_darkHorse,
             R.string.genre_action, R.string.genre_adventure, R.string.genre_comedy, R.string.genre_crime, R.string.genre_cyborgs, R.string.genre_demons,
             R.string.genre_drama, R.string.genre_fantasy, R.string.genre_gore, R.string.genre_graphicsNovels, R.string.genre_historical, R.string.genre_horror,
             R.string.genre_magic, R.string.genre_martialarts, R.string.genre_mature, R.string.genre_mecha, R.string.genre_military, R.string.genre_movieCinematic,
             R.string.genre_mystery, R.string.genre_mythology, R.string.genre_psychological, R.string.genre_robots, R.string.genre_romance, R.string.genre_sci_fi,
             R.string.genre_sports, R.string.genre_spy, R.string.genre_supernatural, R.string.genre_suspense};
+    // Create strings that will be added to the URLs
     protected static final String genreUrls[] = {"", "Marvel", "DC+Comics", "Vertigo", "Dark+Horse", "Action",
             "Adventure", "Comedy", "Crime", "Cyborgs", "Demons", "Drama", "Fantasy", "Gore", "Graphic+Novels", "Historical",
             "Horror", "Magic", "Martial+Arts", "Mature", "Mecha", "Military", "Movie+Cinematic+Link", "Mystery", "Mythology", "Psychological",
@@ -75,6 +77,7 @@ public class ReadComics extends MangaProvider {
     }
 
     @Override
+    // Go to the URL of the comic and read the HTML to find important info about the comic
     public MangaSummary getDetailedInfo(MangaInfo mangaInfo) {
         try {
             MangaSummary summary = new MangaSummary(mangaInfo);
@@ -122,6 +125,7 @@ public class ReadComics extends MangaProvider {
     }
 
     @Override
+    // Create the URL links for the comic pages
     public ArrayList<MangaPage> getPages(String readLink) {
         ArrayList<MangaPage> pages = new ArrayList<>();
         try {
@@ -140,6 +144,7 @@ public class ReadComics extends MangaProvider {
     }
 
     @Override
+    // Get the page image
     public String getPageImage(MangaPage mangaPage) {
         try {
             Document document = getPage(mangaPage.path);
