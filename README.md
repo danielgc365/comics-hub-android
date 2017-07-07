@@ -1,7 +1,11 @@
+[//]: # (Image References)
+
+[image1]: ./misc_images/banner_comics_hub.png
+
 # Comics Hub for Android
 <p align="center">Comics Hub is a powerful app thats lets you read thousands of comics for free!</p>
 
-<img src="https://i.imgsafe.org/791a8e938f.png">
+![image1]
 
 ## Features
  - 3 huge online catalogues with search
