@@ -20,6 +20,7 @@
  - ReadComics
  - ComiCastle
  - Gogo Comics
+ - ComicsOnline
 
 ## License
 
